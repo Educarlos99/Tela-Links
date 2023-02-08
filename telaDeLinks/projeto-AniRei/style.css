@@ -1,0 +1,240 @@
+
+body {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: var(--cor-1);
+
+}
+
+@font-face {
+    font-family: "Fonte-Anirei";
+    src: url(fontes/dakota/Dakota-Regular.ttf) format("truetype");
+    font-weight: none;
+    font-style: normal;
+    /*
+    format() = truetype ou opentype
+    */
+}
+
+:root {
+    --cor-1: #000000;
+    --cor-2: #0f0f0f;
+    --cor-3: rgb(26, 27, 27);
+    --cor-4: #FFFF;
+    --cor-5: rgb(190, 26, 26);
+}
+
+/*
+-------------------------------
+           HEADER
+-------------------------------
+*/
+.cab {
+    background-color: var(--cor-5);
+    width: 100%;
+    height: auto;
+}
+
+.cab h1 {
+    color: var(--cor-4);
+    font-size: 50px;
+    font-family: 'Fonte-Anirei';
+    margin: 20px;
+
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navegacao a {
+    margin: 5px;
+    text-decoration: none;
+    color: var(--cor-4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    
+}
+
+.busca {
+    margin: 7px;
+}
+.busca input{
+    width: 120px;
+}
+
+.bem-vindo {
+    text-align: center;
+    color: var(--cor-4);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/*
+-------------------------------
+           CABEÇALHO
+-------------------------------
+*/
+.cab-anime {
+    text-align: center;
+    font-family: 'Fonte-Anirei';
+    font-size: 20pt;
+    color: var(--cor-5);
+}
+
+
+.anime {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.Lanime {
+    width: 10.8%;
+    height: 5%;
+    padding: 15px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: var(--cor-3);
+
+}
+
+.Lanime:hover {
+    color: var(--cor-5);
+    background-color: whitesmoke;
+    transition: 0.4s;
+}
+
+/*
+-------------------------------
+           GALERIA
+-------------------------------
+*/
+.galeria {
+    clear: both;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.item {
+    background-color: var(--cor-2);
+
+}
+
+.foto-anime {
+    height: 409px;
+    width: 300px;
+    display: block;
+}
+.btn{
+    background-color: var(--cor-5);
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto 5px;
+}
+.nomeAnime{
+    align-content: center;
+    background-color: var(--cor-5);
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+.nomeLink{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: var(--cor-3);
+    transition: 0.4s;
+}
+.nomeAnime:hover{
+    background-color: var(--cor-3);
+    transition: 0.4s;
+}
+.paginas{
+    text-align: center;
+    background-color: var(--cor-2);
+    padding: 10px;
+}
+.pgA{
+    text-decoration: none;
+    background-color: var(--cor-5);
+    padding: 10px;
+    color: white;
+    margin: 5px; 
+}
+.pgA:hover{
+    background-color: white;
+    color: #000000;
+    transition: 0.4s;
+}
+/*
+-------------------------------
+           FOOTER
+-------------------------------
+*/
+.sobre{
+    margin: 20px auto 15px;
+    padding: 15px;
+    color: white;
+    background-color: var(--cor-2);
+    text-align: justify;
+    width: auto;
+    flex-wrap: wrap;
+}
+.sobre a{
+    color: var(--cor-5);
+    text-decoration: none;
+}
+.roda-pe{
+    padding: 20px;
+    background-color: var(--cor-5);
+    margin-top: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+/*Futuramente será aplicado uma versão mobile*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+}*/

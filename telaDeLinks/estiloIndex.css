@@ -1,0 +1,105 @@
+:root {
+    --fundoCOlor2: white;
+    --textColor: black;
+    --bg-color: rgb(91, 225, 230);
+}
+
+body {
+    background-color: var(--bg-color);
+
+}
+
+.caixa {
+    flex-flow: wrap;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.774);
+    -webkit-box-shadow: 13px 7px 35px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 13px 7px 35px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 13px 7px 35px 0px rgba(0, 0, 0, 0.75);
+    margin: 0 auto;
+    width: 40vw;
+    height: auto;
+}
+
+.photoUp,
+img {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.caixaTexto {
+    margin: 0 auto;
+    width: 60%;
+
+
+}
+
+#texto {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#darkBtn {
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.linkSocial {
+    color: black;
+    display: flex;
+    flex-flow: column;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    width: 30vw;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    color: var(--textColor);
+}
+
+.sociaMidia {
+    display: flex;
+    justify-content: center;
+}
+
+.sociaMidia,
+i {
+    margin: 8px;
+    color: rgb(17, 16, 17);
+    font-size: 20px;
+}
+
+.fa-brands:hover {
+    color: var(--bg-color);
+    transition: 1ms;
+}
+
+.text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+
+}
+
+.linkSocial:hover {
+    color: var(--bg-color);
+    transition: 1ms;
+}

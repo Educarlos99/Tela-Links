@@ -1,0 +1,96 @@
+:root {
+    --fundoCOlor2: white;
+    --textColor: black;
+    --bg-color: rgb(91, 225, 230);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 8px;
+}
+
+.info {
+    margin: 8px;
+    display: flex;
+    gap: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--textColor);
+    font-family: 'Roboto', sans-serif;
+    border: solid var(--textColor) 1px;
+    padding: 5px;
+    width: 80px;
+}
+
+.info a:hover {
+    color: var(--bg-color);
+}
+
+.conteudo {
+    background: var(--bg-color);
+    display: flex;
+}
+
+.caixa {
+    background: var(--fundoCOlor2);
+    width: 90%;
+    margin: 5% 8% 8% 10%;
+    border-radius: 20px;
+    border: solid black 1px;
+}
+
+.caixaImg {
+    padding: 20px;
+}
+
+.caixaImg img {
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+img:hover {
+    width: 65%;
+    transition: 1s;
+}
+
+.text {
+    width: 60%;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.link {
+    text-align: center;
+    padding: 1%;
+    color: var(--textColor);
+    border: solid var(--fundoCOlor2) 1px;
+    border-radius: 10px;
+    background: var(--textColor);
+    width: 15%;
+}
+
+.link a {
+    text-decoration: none;
+    color: var(--fundoCOlor2);
+}
+
+.link:hover {
+    background: var(--bg-color);
+    border: solid var(--textColor) 1px;
+    transition: 1s;
+}
+
+.link a:hover {
+    color: var(--textColor);
+}
